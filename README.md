@@ -57,6 +57,20 @@ After build completed,You will see Finder opening with Your Framework in that.
 
 ![alt text](https://github.com/juanjoguevara/SimpleFramework/blob/master/universalgenerated.png)
 
+This is your Universal Framework you can import now in a separate project.
+
+## 4:-Test on Terminal
+
+Verify that JJMRSDK.framework is indeed a universal framework by running file JJMRSDK directory:
+Open The Terminal and type
+```console
+file JJMRSDK.framework/JJMRSDK 
+
+```
+![alt text](https://github.com/juanjoguevara/SimpleFramework/blob/master/verify.png)
+
+The file contains binaries for the x86_64 and arm64 architectures, which makes it a universal-
+
 ## 4:- Create a Demo Project
 
 Create demo target with Single View Application called JJMRSDK-Demo for example
