@@ -1,7 +1,7 @@
 # SimpleFramework
 How create a Framework for iOS using Swift. Based on a mix of [Elad Nava](https://eladnava.com/publish-a-universal-binary-ios-framework-in-swift-using-cocoapods/) and [Zaid Pathan](https://medium.com/captain-ios-experts/develop-a-swift-framework-1c7fdda27bf1)  posts. Modified to work with XCode 9 
 
-## 1.Create a Project
+## 1. Create a Project
 Create a new Xcode project for your framework and select the Cocoa Touch Framework template:
 ![alt text](https://github.com/juanjoguevara/SimpleFramework/blob/master/XCode%20add%20framework.png)
 
@@ -51,7 +51,7 @@ open "${UNIVERSAL_OUTPUTFOLDER}"
 ```
 ![alt text](https://github.com/juanjoguevara/SimpleFramework/blob/master/script.png)
 
-## 3:- Build your first framework by Choosing JJMRSDK-Universal target pressing ⌘ + B
+## 3. Build your first framework by Choosing JJMRSDK-Universal target pressing ⌘ + B
 
 After build completed,You will see Finder opening with Your Framework in that.
 
@@ -59,7 +59,7 @@ After build completed,You will see Finder opening with Your Framework in that.
 
 This is your Universal Framework you can import now in a separate project.
 
-## 4:-Test on Terminal
+## 4. Test on Terminal
 
 Verify that JJMRSDK.framework is indeed a universal framework by running file JJMRSDK directory:
 Open The Terminal and type
@@ -71,7 +71,7 @@ file JJMRSDK.framework/JJMRSDK
 
 The file contains binaries for the x86_64 and arm64 architectures, which makes it a universal-
 
-## 4:- Create a Demo Project
+## 5. Create a Demo Project
 
 Create demo target with Single View Application called JJMRSDK-Demo for example
 
@@ -79,7 +79,7 @@ When the demo target is created, navigate to its project editor, scroll down to 
 
 ![alt text](https://github.com/juanjoguevara/SimpleFramework/blob/master/add-library.png)
 
-## 5:- Test thats works
+## 6. Test thats works
 
 Create a simple Class and write some code:
 
