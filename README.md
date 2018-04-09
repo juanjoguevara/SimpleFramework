@@ -27,7 +27,7 @@ In Build phases add New Run Script Phases
 
 Paste the following script
 
-```
+```sh
 #!/bin/sh
 UNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal
 # make sure the output directory exists
@@ -50,9 +50,33 @@ cp -R "${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework" "${PROJECT_DIR}"
 open "${UNIVERSAL_OUTPUTFOLDER}"
 ```
 
+## 3:- Build your first framework by Choosing JJMRSDK-Universal target pressing ⌘ + B
+
+After build completed,You will see Finder opening with Your Framework in that.
+
 ![alt text](https://github.com/juanjoguevara/SimpleFramework/blob/master/script.png)
 
 
-
+## 4:- Create a Demo Project
 
 After add a demo target with Single View Application called JJMRSDK-Demo for example
+
+When the demo target is created, navigate to its project editor, scroll down to the Embedded Binaries section, click the + icon, and select JJMRSDK.framework:
+
+![alt text](https://github.com/juanjoguevara/SimpleFramework/blob/master/add-library.png)
+
+## 5:- Test thats works
+
+Create a simple Class and write some code:
+
+```swift
+import UIKit
+
+open class JJMRSDK: NSObject {
+    public static let shared = JJMRSDK()
+    
+    open func hello(){
+        debugPrint("Hello from AlamoWater!")
+    }
+}
+
