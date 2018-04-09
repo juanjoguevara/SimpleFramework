@@ -13,7 +13,7 @@ Feel free to replace this dummy implementation with your own functionality, and 
 
 Add 3 new targets:
 
-File> New > Target...
+File > New > Target...
 
 First add Agregate target called JJMRSDK-Universal
 
@@ -90,7 +90,33 @@ open class JJMRSDK: NSObject {
     public static let shared = JJMRSDK()
     
     open func hello(){
-        debugPrint("Hello from AlamoWater!")
+        debugPrint("Hello World!")
     }
 }
+
+```
+Import the library in any project and test:
+
+```swift
+
+import UIKit
+import JJMRSDK
+
+class ViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        JJMRSDK.shared.hello()
+        // Do any additional setup after loading the view, typically from a nib.
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+
+
+}
+
+```
 
