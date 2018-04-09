@@ -49,17 +49,17 @@ cp -R "${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework" "${PROJECT_DIR}"
 # Step 6. Convenience step to open the project's directory in Finder
 open "${UNIVERSAL_OUTPUTFOLDER}"
 ```
+![alt text](https://github.com/juanjoguevara/SimpleFramework/blob/master/script.png)
 
 ## 3:- Build your first framework by Choosing JJMRSDK-Universal target pressing ⌘ + B
 
 After build completed,You will see Finder opening with Your Framework in that.
 
-![alt text](https://github.com/juanjoguevara/SimpleFramework/blob/master/script.png)
-
+![alt text](https://github.com/juanjoguevara/SimpleFramework/blob/master/universalgenerated.png)
 
 ## 4:- Create a Demo Project
 
-After add a demo target with Single View Application called JJMRSDK-Demo for example
+Create demo target with Single View Application called JJMRSDK-Demo for example
 
 When the demo target is created, navigate to its project editor, scroll down to the Embedded Binaries section, click the + icon, and select JJMRSDK.framework:
 
