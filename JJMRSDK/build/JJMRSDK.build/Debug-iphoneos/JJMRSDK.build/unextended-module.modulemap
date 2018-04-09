@@ -1,0 +1,10 @@
+framework module JJMRSDK {
+  umbrella header "JJMRSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module JJMRSDK.__Swift {
+    exclude header "JJMRSDK-Swift.h"
+}

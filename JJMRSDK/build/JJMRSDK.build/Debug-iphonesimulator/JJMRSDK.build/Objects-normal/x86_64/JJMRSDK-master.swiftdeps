@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "9ca437370187c29d7a00eb5e0a56551d"
+build_time: [1523285724, 743534000]
+inputs:
+  "/Users/juanjoguevara/Documents/Proyectos iOS/SimpleFramework/JJMRSDK/JJMRSDK/JJMRSDK.swift": [1523285547, 0]

@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/juanjoguevara/Library/Developer/Xcode/DerivedData/JJMRSDK-eimdkqjebbmzxpcjpgfleauvekad/Build/Products/Debug-iphonesimulator/JJMRSDK.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/juanjoguevara/Documents/Proyectos iOS/SimpleFramework/JJMRSDK/build/JJMRSDK.build/Debug-iphonesimulator/JJMRSDK.build/unextended-module.modulemap',
+    }]
+  }]
+}

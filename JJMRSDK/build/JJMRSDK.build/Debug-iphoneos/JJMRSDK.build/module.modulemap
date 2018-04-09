@@ -1,0 +1,11 @@
+framework module JJMRSDK {
+  umbrella header "JJMRSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module JJMRSDK.Swift {
+    header "JJMRSDK-Swift.h"
+    requires objc
+}
