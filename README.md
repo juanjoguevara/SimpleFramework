@@ -12,7 +12,7 @@ Feel free to replace this dummy implementation with your own functionality, and 
 
 ## 2. Create framework for both iOS Device and Simulator add new Aggregate target to your project.
 
-Add a new targets:
+Add a new target:
 
 File > New > Target...
 
