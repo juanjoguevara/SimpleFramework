@@ -3,6 +3,7 @@ How create a Framework for iOS using Swift. Based on a mix of [Elad Nava](https:
 
 ## 1. Create a Project
 Create a new Xcode project for your framework and select the Cocoa Touch Framework template:
+
 ![alt text](https://github.com/juanjoguevara/SimpleFramework/blob/master/XCode%20add%20framework.png)
 
 Enter a Product Name and choose Swift as the project language. For the purpose of writing this guide, I've chosen to create a framework called JJMRSDK that exposes a method which simply prints a String to the console.
@@ -63,10 +64,12 @@ This is your Universal Framework you can import now in a separate project.
 
 Verify that JJMRSDK.framework is indeed a universal framework by running file JJMRSDK directory:
 Open The Terminal and type
+
 ```console
 file JJMRSDK.framework/JJMRSDK 
 
 ```
+
 ![alt text](https://github.com/juanjoguevara/SimpleFramework/blob/master/verify.png)
 
 The file contains binaries for the x86_64 and arm64 architectures, which makes it a universal-
