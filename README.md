@@ -1,5 +1,5 @@
-# SimpleFramework
-How create a Framework for iOS using Swift. Based on a mix of [Elad Nava](https://eladnava.com/publish-a-universal-binary-ios-framework-in-swift-using-cocoapods/) and [Zaid Pathan](https://medium.com/captain-ios-experts/develop-a-swift-framework-1c7fdda27bf1)  posts. Modified to work with XCode 9 
+# How to Create a Universal Framework for iOS
+How create a Framework for iOS using Swift. Based on a mix of [Elad Nava](https://eladnava.com/publish-a-universal-binary-ios-framework-in-swift-using-cocoapods/) and [Zaid Pathan](https://medium.com/captain-ios-experts/develop-a-swift-framework-1c7fdda27bf1)  posts. Modified and updated to work with XCode 9. Include a example project.
 
 ## 1. Create a Project
 Create a new Xcode project for your framework and select the Cocoa Touch Framework template:
