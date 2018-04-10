@@ -12,11 +12,11 @@ Feel free to replace this dummy implementation with your own functionality, and 
 
 ## 2. Create framework for both iOS Device and Simulator add new Aggregate target to your project.
 
-Add 3 new targets:
+Add a new targets:
 
 File > New > Target...
 
-First add Agregate target called JJMRSDK-Universal
+Add Agregate target called JJMRSDK-Universal
 
 ![alt text](https://github.com/juanjoguevara/SimpleFramework/blob/master/targets.png)
 
