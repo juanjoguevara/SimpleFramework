@@ -122,4 +122,18 @@ class ViewController: UIViewController {
 }
 
 ```
+## 7. Build universal framework for Carthage
 
+Select your Universal Target, go to Build Settings and set these values:
+
+![alt text](https://github.com/juanjoguevara/SimpleFramework/blob/master/archive1.png)
+
+Add a new User-Defined Setting:
+
+![alt text](https://github.com/juanjoguevara/SimpleFramework/blob/master/archive2.png)
+
+And set a new value like this: 
+
+![alt text](https://github.com/juanjoguevara/SimpleFramework/blob/master/archive3.png)
+
+Make Build, Archive, upload to your repository and enjoy your new framework! 
