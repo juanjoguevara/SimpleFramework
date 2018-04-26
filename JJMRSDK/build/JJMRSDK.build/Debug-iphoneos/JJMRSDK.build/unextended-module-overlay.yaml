@@ -3,11 +3,11 @@
   'case-sensitive': 'false',
   'roots': [{
     'type': 'directory',
-    'name': '/Users/juanjoguevara/Library/Developer/Xcode/DerivedData/JJMRSDK-eimdkqjebbmzxpcjpgfleauvekad/Build/Products/Debug-iphoneos/JJMRSDK.framework/Modules'
+    'name': '/Users/manu/Library/Developer/Xcode/DerivedData/JJMRSDK-fewusemtxepwzdeahdhutgdmjxty/Build/Products/Debug-iphoneos/JJMRSDK.framework/Modules'
     'contents': [{
       'type': 'file',
       'name': 'module.modulemap',
-      'external-contents': '/Users/juanjoguevara/Documents/Proyectos iOS/SimpleFramework/JJMRSDK/build/JJMRSDK.build/Debug-iphoneos/JJMRSDK.build/unextended-module.modulemap',
+      'external-contents': '/Users/manu/Desktop/Projects/SimpleFramework/JJMRSDK/build/JJMRSDK.build/Debug-iphoneos/JJMRSDK.build/unextended-module.modulemap',
     }]
   }]
 }
